@@ -11,7 +11,7 @@ spring:
         username: ejyhcfeekrmayh
         password: 78198d33c63aca031a7859c10a5b005b2fdec0a6f61d0cea6b56ec97833520fc
     jpa:
-        database: d8epsk058u0urm
+        database: POSTGRESQL
         hibernate:
             ddl-auto: update
     zipkin:
