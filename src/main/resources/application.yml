@@ -14,8 +14,6 @@ spring:
         database: POSTGRESQL
         hibernate:
             ddl-auto: update
-    zipkin:
-        base-url: http://127.0.0.1:9411/
             
             
 eureka:
@@ -23,8 +21,8 @@ eureka:
         fetch-registry: true
         register-with-eureka: true
         service-url:
-            defaultZone: http://localhost:8761/eureka/
+            defaultZone: https://eurekaserverformpi.herokuapp.com/
     instance:
-        hostname: localhost
+        hostname: Amazon.com
 
   
