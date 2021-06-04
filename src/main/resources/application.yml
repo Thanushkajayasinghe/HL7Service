@@ -1,0 +1,30 @@
+server:
+    port: 8092
+    
+    
+spring:
+    application:
+        name: mpi-service
+    datasource:
+        platform: postgres
+        url: jdbc:postgresql://localhost:5432/postgres?createDatabaseIfNotExist=true
+        username: postgres
+        password: 123456
+    jpa:
+        database: POSTGRESQL
+        hibernate:
+            ddl-auto: update
+    zipkin:
+        base-url: http://127.0.0.1:9411/
+            
+            
+eureka:
+    client:
+        fetch-registry: true
+        register-with-eureka: true
+        service-url:
+            defaultZone: http://localhost:8761/eureka/
+    instance:
+        hostname: localhost
+
+  
