@@ -16,13 +16,5 @@ spring:
             ddl-auto: update
             
             
-eureka:
-    client:
-        fetch-registry: true
-        register-with-eureka: true
-        service-url:
-            defaultZone: https://eurekaserverformpi.herokuapp.com/
-    instance:
-        hostname: https://eurekaserverformpi.herokuapp.com/
 
   
