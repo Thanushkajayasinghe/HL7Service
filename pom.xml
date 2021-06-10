@@ -32,6 +32,12 @@
 		</dependency>
 
 		<dependency>
+    <groupId>com.sun.jersey.contribs</groupId>
+    <artifactId>jersey-apache-client4</artifactId>
+    <version>1.19.4</version>
+</dependency>
+		
+		<dependency>
 			<groupId>ca.uhn.hapi</groupId>
 			<artifactId>hapi-base</artifactId>
 			<version>2.3</version>
