@@ -7,16 +7,13 @@ spring:
         name: mpi-service
     datasource:
         platform: postgres
-        url: jdbc:postgres://ejyhcfeekrmayh:78198d33c63aca031a7859c10a5b005b2fdec0a6f61d0cea6b56ec97833520fc@ec2-34-232-191-133.compute-1.amazonaws.com:5432/d8epsk058u0urm?createDatabaseIfNotExist=true        
-        username: ejyhcfeekrmayh
-        password: 78198d33c63aca031a7859c10a5b005b2fdec0a6f61d0cea6b56ec97833520fc
+        url: jdbc:postgres://ec2-34-202-54-225.compute-1.amazonaws.com:5432/d4td03se5dd45g?createDatabaseIfNotExist=true        
+        username: aflukyyvruzmqv
+        password: cdcf873aca9334130a5fc0121ab7be861126889fc6f8110ccd9fbb0e201e552c
     jpa:
         database: POSTGRESQL
         hibernate:
             ddl-auto: update
-    cloud:
-        discovery:
-        enabled: true 
             
             
 eureka:
@@ -26,6 +23,6 @@ eureka:
         service-url:
             defaultZone: https://eurekaserverformpi.herokuapp.com/
     instance:
-        hostname: Amazon.com
+        hostname: https://eurekaserverformpi.herokuapp.com/
 
   
